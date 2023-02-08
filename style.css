@@ -204,4 +204,13 @@ Footer
 
 .footer {
   background-color: #1f2937;
+  color: #f9faf8; 
+  padding-block: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  padding-inline: 6px;
 }
