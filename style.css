@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -107,7 +107,7 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 56px;
 }
 
 .item {
@@ -125,3 +125,27 @@ h2 {
   margin-top: 10px;
   color: rgb(110, 116, 124);
 }
+
+.quote {
+  padding-block: 80px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote > * {
+  margin-inline: 80px;
+}
+
+blockquote {
+  margin: 0;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+}
+
