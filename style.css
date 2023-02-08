@@ -1,3 +1,7 @@
+/* =============
+Global
+============== */
+
 body {
   font-family: Helvetica, sans-serif;
   margin: 0;
@@ -7,8 +11,20 @@ body > * {
   padding-inline: 14%;
 }
 
-.hero,
-.footer {
+button {
+  padding: 8px 30px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* =============
+Hero
+============== */
+
+.hero {
   background-color: #1f2937;
 }
 
@@ -32,7 +48,7 @@ nav {
   gap: 20px;
 }
 
-a {
+nav a {
   text-decoration: none;
 }
 
@@ -60,9 +76,6 @@ nav a,
 
 img {
   width: 525px;
-}
-
-img {
   position: relative;
   bottom: 248px;
 }
@@ -82,14 +95,9 @@ img {
   color: #f9faf8;
 }
 
-button {
-  padding: 8px 30px;
-  background-color: #3882f6;
-  color: #f9faf8;
-  font-size: 20px;
-  border: none;
-  border-radius: 8px;
-}
+/* =============
+Detail Tiles
+============== */
 
 .details {
   text-align: center;
@@ -126,6 +134,10 @@ h2 {
   color: rgb(110, 116, 124);
 }
 
+/* ===========
+Quotation
+=========== */
+
 .quote {
   padding-block: 80px;
   background-color: #e5e7eb;
@@ -149,6 +161,10 @@ blockquote {
   font-size: 24px;
 }
 
+/* =============
+Call to Action
+============== */
+
 .cta {
   padding-block: 80px;
 }
@@ -171,4 +187,12 @@ blockquote {
 
 .cta-banner button {
   border: 2px solid #f9faf8;
+}
+
+/* =============
+Footer
+============== */
+
+.footer {
+  background-color: #1f2937;
 }
