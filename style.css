@@ -18,6 +18,11 @@ button {
   font-size: 20px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2f6ccf;
 }
 
 /* =============
@@ -45,17 +50,21 @@ Hero
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-}
-
-nav a {
-  text-decoration: none;
+  gap: 26px;
 }
 
 nav a,
 .welcome-cta p {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c5c5c9;
 }
 
 .welcome-container {
@@ -66,18 +75,6 @@ nav a,
   flex-flow: wrap-reverse;
   gap: 60px;
   padding-block: 100px;
-}
-
-.img-container {
-  flex-shrink: 0;
-  overflow: hidden;
-  height: 320px;
-}
-
-img {
-  width: 525px;
-  position: relative;
-  bottom: 248px;
 }
 
 .welcome-cta {
@@ -93,6 +90,18 @@ img {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+}
+
+.img-container {
+  flex-shrink: 0;
+  overflow: hidden;
+  height: 320px;
+}
+
+img {
+  width: 525px;
+  position: relative;
+  bottom: 248px;
 }
 
 /* =============
