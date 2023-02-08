@@ -149,3 +149,26 @@ blockquote {
   font-size: 24px;
 }
 
+.cta {
+  padding-block: 80px;
+}
+
+.cta-banner {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  padding: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-banner label {
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cta-banner button {
+  border: 2px solid #f9faf8;
+}
